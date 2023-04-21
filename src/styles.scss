@@ -1,0 +1,13 @@
+html[data-theme='light'] {
+  --bg-color: #e4f0fa;
+}
+html[data-theme='dark'] {
+  --bg-color: #121215;
+}
+$bg-color: var(--bg-color);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
